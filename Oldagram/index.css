@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    width: 375px;
+    margin: 12px auto;
+}
+
+#main {
+    width: 375px;
+    margin: 0 auto;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 15px 10px;
+}
+
+.name, .location {
+    margin: 0;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.artist {
+    width: 375px;
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.icon:hover, .icon:focus, .icon:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.likes {
+    font-weight: 700;
+}
+
+.author {
+    font-weight: 700;
+    cursor: pointer;
+}
